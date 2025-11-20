@@ -1,0 +1,74 @@
+.login-container {
+  max-width: 25rem;
+  margin: 6.25rem auto;
+  padding: 1.25rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+  text-align: center;
+  color: #008080;  
+  margin-bottom: 1.25rem;
+  font-size: 2rem;  
+  font-weight: 700;  
+  letter-spacing: 0.0625rem;  
+}
+
+.app-description {
+  text-align: center;
+  color: #666;
+  margin-bottom: 1.875rem;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.login-form input {
+  padding: 0.625rem;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.login-form input:focus {
+  border-color: #00b2b2;
+  box-shadow: 0 0 0 0.125rem rgba(0, 178, 178, 0.2);
+}
+
+.login-form button {
+  margin-top: 0.625rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-form button:hover {
+  background-color: #00b2b2;
+}
+
+.error {
+  color: #dc3545;
+  text-align: center;
+  margin-top: 0.625rem;
+  font-size: 0.875rem;
+}
